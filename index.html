@@ -417,8 +417,7 @@
         <div class="signup-input">
           <p class="signup-input title">Підпишіться на розсилку</p>
 
-          <form>
-            <div class="signup-form">
+          <form class="signup-form">
               <label>
                 <input type="email" name="name" placeholder="E-mail" />
               </label>
@@ -428,7 +427,6 @@
                   <use href="./images/icons.svg#icon-signup"></use>
                 </svg>
               </button>
-            </div>
           </form>
         </div>
       </div>
@@ -446,7 +444,7 @@
         <h2 class="modal-input title">Залиште свої дані, ми вам передзвонимо</h2>
 
         <form autocomplete="off">
-          <label>
+          <label class="form-label">
             Ім'я
             <input class="input-field" type="text" name="name" autofocus />
             <svg class="input-icon" width="18" height="18">
@@ -454,7 +452,7 @@
             </svg>
           </label>
 
-          <label>
+          <label class="form-label">
             Телефон
             <input class="input-field" type="text" name="name" />
             <svg class="input-icon" width="18" height="18">
@@ -462,7 +460,7 @@
             </svg>
           </label>
 
-          <label>
+          <label class="form-label">
             Пошта
             <input class="input-field" type="email" name="email" />
             <svg class="input-icon" width="18" height="18">
@@ -470,13 +468,13 @@
             </svg>
           </label>
 
-          <label class="comment">
+          <label class="form-label">
             Коментар
             <textarea name="comment" rows="6" placeholder="Введіть текст"></textarea>
           </label>
 
-          <div class="checkbox-agreement">
-            <label class="checkbox">
+          
+            <label class="checkbox-agreement">
               <input class="checkbox-input" type="checkbox" name="agree" value="reading" />
 
               <span class="custom-checkbox">
@@ -486,14 +484,13 @@
               </span>
               <span class="checkbox-label"
                 >Погоджуюся з розсилкою та приймаю
-                <a class="checkbox-label-link" href="">Умови договору</a></span
-              >
+                <a class="checkbox-label-link" href="">Умови договору</a></span>
             </label>
-          </div>
+          
 
           <button type="submit">Відправити</button>
         </form>
-        <!-- </div> -->
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
